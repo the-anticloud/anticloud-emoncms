@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:48918809-7e70-5e9a-a3bd-b37424e0dd5e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:13:48Z",
+    "component": {
+      "type": "application",
+      "name": "EMONCMS",
+      "version": "52cb4367f591",
+      "bom-ref": "pkg:generic/anticloud/EMONCMS@52cb4367f591",
+      "purl": "pkg:generic/anticloud/EMONCMS@52cb4367f591",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "52cb4367f591f2fcde49f107478ab291e53a0b93"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/emoncms/emoncms"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
